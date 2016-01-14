@@ -13,6 +13,7 @@
 (function ($) {
     // Time it takes in seconds to scroll to target.
     var scrollTime = 1;
+    // Scroll offset
     var offset = 200;
 
     $.fn.luxScrollTo = function (time, offset, target) {
