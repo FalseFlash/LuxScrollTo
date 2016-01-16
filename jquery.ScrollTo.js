@@ -33,6 +33,7 @@
         }
         finally {
             $(this).click(function (e) {
+                e.preventDefault();
                 if (typeof offset === 'undefined') {
                     $('html, body').animate({
                         scrollTop: $(target).offset().top
